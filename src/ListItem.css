@@ -1,0 +1,111 @@
+
+
+.search-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-top: 20px;
+  }
+  .search-bar{
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-width:1px;
+    width:300px;
+    
+  }
+  .line{
+    width:100%;
+    color:#000;
+  }
+  .items{
+    padding-right:40px;
+    margin-right:30px;
+  }
+  .search-section {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  .custom-table{
+    padding:20px;
+    margin:20px;
+  }
+  input {
+    flex: 1;
+    padding: 8px;
+    margin-right: 10px;
+  }
+  
+  .search-icon {
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .add-item-button {
+    color: #4CAF50;
+   
+    background-color: #fff;
+   border-color: #4CAF50;
+    padding: 10px 15px;
+    border-radius: 25px;
+    cursor: pointer;
+    text-align: right;
+  }
+  .button{
+    text-align: right;
+    
+  }
+  
+  .table-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .table-section {
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+  }
+  
+  .popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    z-index: 999;
+  }
+  .popup-button{
+    color:#000;
+    border-width:0px ;
+    padding:5px;
+    margin:5px;
+    background-color: #fff;
+    text-align: right;
+    font-weight: bold;
+
+  }
+  .missing-product{
+    font-size: 20px;
+    font-family: "Roboto";
+
+  }
+  .missing-button{
+    text-align: right;
+  }
+  .img{
+    height:50px;
+    width:50px;
+  }
+  .num{
+    font-weight: bold;
+  }
+.under-line{
+  text-decoration: line-through;
+}
